@@ -1,7 +1,110 @@
+body {
+  background-color: #3ab795;
+  color: #edead0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: larger;
+}
+
 .SocialsImg {
-  width: 3%;
+  width: 35%;
 }
 
 .ProjectImg {
-  width: 25%;
+  width: 250px;
+  height: 250px;
+  border-radius: 5%;
+}
+
+.everything {
+  margin-left: 5%;
+  margin-top: 1%;
+}
+
+h1 {
+  font-size: 100px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+h3 {
+  margin-top: 5px;
+  margin-bottom: 2%;
+  font-size: 20px;
+}
+
+.lineup {
+  display: grid;
+  grid-template-columns: 20% 20%;
+  height: 10%;
+}
+
+.contact {
+}
+
+a {
+  color: #edead0;
+  text-decoration: none;
+}
+
+.sidesContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "info projects";
+}
+
+.leftSide {
+  grid-area: info;
+}
+
+.rightSide {
+  grid-area: projects;
+}
+
+.skills h3 {
+  margin-bottom: 1%;
+}
+.skills ul {
+  margin-top: 0;
+}
+
+.skills {
+  margin-bottom: 2%;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.ProjectText {
+  margin-left: 25%;
+}
+
+.ProjectName {
+  text-align: center;
+  margin: 3% 5% 3% 5%;
+}
+
+.project {
+  border: 3px solid #edead0;
+  border-radius: 3%;
+  width: 250px;
+  background-color: #206351;
+  height: 360px;
+}
+
+button {
+  color: black;
+  background-color: #edead0;
+  display: inline-flex;
+}
+
+.infoText {
+  width: 80%;
 }
